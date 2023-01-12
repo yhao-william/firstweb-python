@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0px;padding:0px}
+        a{text-decoration: none;}
+        ul{list-style:none;}
+
+        #header{
+            position:fixed;
+            top:0px;
+            width:100%;
+            border-bottom:1px solid #46474a;
+        }
+        #header .header-nav{
+            height:80px;
+            width:1200px;
+            background-color: goldenrod;
+            margin:0px auto;
+        }
+        #nav{
+            height:60px;
+            margin-top:81px;
+            background-color:#46474a;
+        }
+
+
+        #container .content .main ul li{
+            display:block;
+            height:220px;
+            line-height:220px;
+            width:100%;
+            margin-bottom:20px;
+            border:1px dashed #f60;
+        }
+
+        .main ul li .info{
+            height:100%;
+            width:680px;
+            float:right;
+            background-color:snow;
+            border-bottom:1px solid #aaa;
+        }
+
+        .main ul li .info .info-right{
+            width:80px;
+            height:80px;
+            border:1px dashed orange;
+            float: left;
+            margin-top:70px;
+        }
+        .main ul li .info .info-left{
+            width:300px;
+            height:120px;
+            border:1px dashed orange;
+            float: both;
+            margin-top:50px;
+        }
+        
+
+       
+
+    </style>
+</head>
+<body>
+    
+    <header id="header">
+        <div class="header-nav">
+            <h2>Testing</h2>
+            Website: www.mihoyo.com
+        </div>
+    </header>
+
+    <nav id="nav"></nav>
+
+    <section id="container">
+        <div class="content">
+            <article class="main">
+
+                <ul>
+                    <li>
+                        <div class="info">
+                            <div class="info-right"></div>
+                            <div class="info-left"></div>
+                        </div>
+                        <div class="ids"></div>
+                        <div class="pic"></div>
+                    </li>
+
+            </article>
+        </div>
+
+    </section>
+
+    <footer></footer>
+</body>
+</html>
